@@ -1,0 +1,29 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "\"Calculator\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shanxi85/calculator.git"
+  },
+  "author": "normala che eembi @ jamil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shanxi85/calculator/issues"
+  },
+  "homepage": "https://github.com/shanxi85/calculator#readme",
+  "devDependencies": {
+    "eslint": "^7.7.0",
+    "http-proxy-middleware": "^1.0.5",
+    "lite-server": "^2.5.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
